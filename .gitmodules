@@ -1,0 +1,12 @@
+[submodule "src/components/submodules/top-nav"]
+	path = src/components/submodules/top-nav
+	url = https://github.com/Geff115/repo-top-nav.git
+[submodule "src/components/submodules/bottom-nav"]
+	path = src/components/submodules/bottom-nav
+	url = https://github.com/Geff115/repo-bottom-nav.git
+[submodule "src/components/submodules/provider-search"]
+	path = src/components/submodules/provider-search
+	url = https://github.com/Geff115/repo-provider-search.git
+[submodule "src/components/submodules/about-us"]
+	path = src/components/submodules/about-us
+	url = https://github.com/Geff115/repo-about-us.git
