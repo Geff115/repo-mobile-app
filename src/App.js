@@ -8,11 +8,46 @@ import BottomNav from './components/submodules/bottom-nav/src/components/BottomN
 import ProviderSearch from './components/submodules/provider-search/src/components/ProviderSearch';
 import AboutUs from './components/submodules/about-us/src/components/AboutUs';
 
-// Import demo pages from submodules
-import TopNavDemo from './components/submodules/top-nav/src/pages/TopNavDemo';
-import BottomNavDemo from './components/submodules/bottom-nav/src/pages/BottomNavDemo';
-import ProviderSearchDemo from './components/submodules/provider-search/src/pages/ProviderSearchDemo';
-import AboutUsDemo from './components/submodules/about-us/src/pages/AboutUsDemo';
+// Create demo components directly in the main app
+const TopNavDemo = () => (
+  <div className="component-demo">
+    <h1>Top Navigation Demo</h1>
+    <p>This is a demonstration of the Top Navigation component from its submodule.</p>
+    <div className="demo-container">
+      <TopNav />
+    </div>
+  </div>
+);
+
+const BottomNavDemo = () => (
+  <div className="component-demo">
+    <h1>Bottom Navigation Demo</h1>
+    <p>This is a demonstration of the Bottom Navigation component from its submodule.</p>
+    <div className="demo-container">
+      <BottomNav />
+    </div>
+  </div>
+);
+
+const ProviderSearchDemo = () => (
+  <div className="component-demo">
+    <h1>Provider Search Demo</h1>
+    <p>This is a demonstration of the Provider Search component from its submodule.</p>
+    <div className="demo-container">
+      <ProviderSearch />
+    </div>
+  </div>
+);
+
+const AboutUsDemo = () => (
+  <div className="component-demo">
+    <h1>About Us Demo</h1>
+    <p>This is a demonstration of the About Us component from its submodule.</p>
+    <div className="demo-container">
+      <AboutUs />
+    </div>
+  </div>
+);
 
 // Create a Home component
 const Home = () => (
